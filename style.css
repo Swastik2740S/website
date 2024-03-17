@@ -1,7 +1,5 @@
 @charset "UTF-8";
-/**
-* Eric Meyer's Reset CSS v2.0
-*/
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -137,7 +135,7 @@ html {
   font-size: 16px;
 }
 body {
-  min-width: 1800px;
+  min-width: 600px;
   color: #ffffff;
   font-family: Lato, sans-serif;
   font-size: 1.125rem; /* 18px / 16px = 1.125rem */
@@ -1146,7 +1144,7 @@ body {
 @media only screen and (max-width: 600px) {
   body {
     max-width: 600px;
-    color: #080808;
+    color: #f6efef;
     font-family: Lato, sans-serif;
     font-size: 1.125rem; /* 18px / 16px = 1.125rem */
     font-style: normal;
@@ -1154,6 +1152,236 @@ body {
     letter-spacing: 0.025em;
     text-decoration: none;
   }
+  .bg {
+    overflow: hidden;
+    padding: 15px 0 17px;
+    position: relative;
+    z-index: 188;
+    background: #ffffff;
+  }
+  .l-constrained-4 {
+    margin: 10px;
+    padding: 0 0px;
+    position: relative;
+    width: 600px;
+  }
+  .webpro {
+    color: #1a1a1a;
+    font-family: LemonMilk, serif;
+    font-size: 1rem; /* 31.3px / 16px = 1.95625rem */
+    font-weight: bold;
+    letter-spacing: 0;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .logo {
+    float: left;
+    position: relative;
+    width: 50rem;
+  }
+  .shape-1 {
+    float: left;
+    margin: 0 1px 0 0;
+  }
+  .col-6 {
+    float: left;
+    margin: 8px 0 0;
+    position: relative;
+    width: 134px;
+  }
+  .text {
+    color: #1a1a1a;
+    font-size: 0.575303rem; /* 10.8px / 16px = 0.675rem */
+    font-weight: 900;
+    letter-spacing: 0.42em;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .social {
+    float: left;
+    margin-left: 30%;
+    margin-top: -7%;
+  }
+  .social > a {
+    margin-left: 20px;
+    padding-top: 27px;
+    color: #080808;
+    font-size: 14px;
+    letter-spacing: -10px;
+  }
+  .nav {
+    float: left;
+    margin-left: 55%;
+    margin-top: -6.2%;
+    
+    width: 600px;
+  }
+  .nav-list {
+    position: relative;
+    list-style: none;
+  }
+  .nav-list li {
+    float: left;
+    margin: 0 10.6px 0 0;
+  }
+  .nav-list li:last-child {
+    margin-right: 0;
+  }
+  .nav-item-1 {
+    color: #1a1a1a;
+    font-size: 0.537499rem; /* 15px / 16px = 0.9375rem */
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .nav-item-1-2 {
+    color: #1a1a1a;
+    font-size: 0.537499rem; /* 15px / 16px = 0.9375rem */
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .nav-item-1-3 {
+    color: #1a1a1a;
+    font-size: 0.537499rem; /* 15px / 16px = 0.9375rem */
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .nav-item-1-4 {
+    color: #1a1a1a;
+    font-size: 0.537499rem; /* 15px / 16px = 0.9375rem */
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .nav-item-1-5 {
+    color: #1a1a1a;
+    font-size: 0.537499rem; /* 15px / 16px = 0.9375rem */
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .nav-item-1-6 {
+    color: #1a1a1a;
+    font-size: 0.537499rem; /* 15px / 16px = 0.9375rem */
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    margin-left: 500px;
+    margin-top: -15px;
+  }
+  .background-image {
+    height: 600px;
+    width: 600px;
+    margin: -10px 0 0;
+    padding: 50px 0 50px;
+    position: relative;
+    z-index: 176;
+    background: url(images/rectangle_4.jpg) no-repeat center 0;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  .copy {
+    margin: 0 auto;
+    padding: 0 238px;
+    position: relative;
+    width: 600px;
+  }
+  .text-3 {
+    margin: 0 0 0 50px;
+    font-family: Montserrat, sans-serif;
+    font-size: 2.092612rem; /* 129.48px / 16px = 8.0925rem */
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 40.56px;
+    text-transform: uppercase;
+  }
+  .text-4 {
+    margin: 18px 0 0 50.56px;
+    width: 262px;
+    line-height: 20px;
+    font-size: 16px;
+  }
+  .rectangle-6-copy-7-holder {
+    margin: 32px 0 0 50px;
+    min-height: 37px;
+    padding: 0 0 0 4px;
+    position: relative;
+    width: 150px;
+    background: #f56131;
+    font-family: AvantGardeCE-Demi, serif;
+    letter-spacing: 0.075em;
+    line-height: 47px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+  }
+  .l-constrained {
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    width: 1800px;
+    z-index: 117;
+  }
+  .group-2 {
+    height: 822px;
+    display: flex;
+    flex-direction: column;
+    width: 1800px;
+  }
+  .rectangle-1-holder {
+    right: 50%;
+    padding: 144px 0 155px;
+    position: absolute;
+    top: 0;
+    width: 600px;
+    background: #2f2339;
+    margin-top: 600px;
+  }
+  .copy-2 {
+    margin: 0 auto;
+    position: relative;
+    width: 585px;
+  }
+  .text-6 {
+    font-family: Montserrat, sans-serif;
+    font-size: 3.203687rem; /* 51.26px / 16px = 3.20375rem */
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 60px;
+    text-transform: uppercase;
+  }
+  .text-7 {
+    margin: 32px 0 0;
+    width: 585px;
+    color: #bfbfbf;
+    line-height: 30px;
+  }
+  .rectangle-6-copy-4-holder {
+    margin: 62px 0 0;
+    min-height: 67px;
+    padding: 0 45px;
+    position: relative;
+    width: 214px;
+    background: #f56131;
+    font-family: AvantGardeCE-Demi, serif;
+    letter-spacing: 0.075em;
+    line-height: 67px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .rectangle-3 {
+    left: 50%;
+    position: absolute;
+    top: 0;
+    width: 600px;
+    margin-left: -900px;
+  }
+  
+  
 }
 
 
